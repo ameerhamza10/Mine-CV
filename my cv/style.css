@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(8, 252, 219);
+}
+
+.container{
+    display: flex;
+    margin: 50px;
+}
+.left_side{
+    background-color: rgb(0, 0, 0);
+    color: rgb(253, 253, 251);
+    padding: 30px;
+    border-radius: 10%;
+    padding: 30px;
+    max-width: 800px;
+    max-height: 1200px;
+    cursor: pointer;
+    
+}
+img{
+    border-radius: 20%;
+    height: 300px;
+    width: 300px;
+}
+.heading{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 25px;
+
+}
+.right_side{
+    background-color: rgb(255, 0, 242);
+    border-radius: 8%;
+    padding: 50px;
+    max-width: 900px;
+    max-height: 1200px;
+    cursor: pointer;
+    
+}
+.about_profile{
+    justify-content: center;
+}
+.about_profile {
+text-align: center;
+}
+.scope{
+    margin-bottom: 20px;
+
+}
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    f
+}
+.contact ul{
+    list-style: none;
+}
+.about_profile h2,h4{
+text-transform: uppercase;
+}
+.about_profile h4{
+word-spacing: 2px;
+}
+.contact li{
+    margin-bottom: 10px;
+}
+.school{
+    margin-bottom: 20px;
+}
+.school h4{
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.college h4{
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+.profile p{
+line-height: 25px;
+text-align: justify;
+align-self: flex-start;
+}
+.interest ul{
+    display: flex;
+    gap: 30px;
+text-transform: capitalize;
+margin: 40px;
+font-size: 20px;
+}
+.interest li{
+    margin-left: 30px;
+}
+.interest ul{
+    list-style: none;
+}
+.about_experience ul{
+    text-transform: capitalize;
+    
+}
+.about_experience li{
+    margin-bottom: 10px;
+   margin-left: 15px; 
+}
+@media screen and (max-width:480px) {
+    .container{
+        display: inline;
+margin: 0;
+        
+    }
+    .left_side{
+        border-radius: 0%;
+    }
+    .right_side{
+        border-radius: 0%;
+    }
+    html,body{
+        margin: 0;
+        padding: 0;
+    }
+}
+.interest ul{
+    display: block;
+
+
+margin: 10px;
+padding: 10px;
+margin-bottom: 10px;
+
+}
+.interest li{
+    padding: 4px;
+    margin: 5px;
+    
+}
+@media screen and (max-width:768px) {
+    .container{
+        display: inline;
+        margin: 0;
+    }
+    .left_side{
+        border-radius: 0%;
+    }
+    .right_side{
+        border-radius: 0%;
+    }
+}
